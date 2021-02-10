@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rgba } from 'polished';
 import Logo from './Logo';
+import Button from './Button';
 
 const Header = () => (
-  <Wrapper>
+  <Wrapper> 
     <Inner>
       <Row>
         <Logo />
-        <Button>Get Started</Button>
+        <Button style={{height: "100%"}}>Get Started</Button>
       </Row>
       <Row>
         <div>
@@ -41,7 +41,7 @@ const Header = () => (
 const Wrapper = styled.div`
   background: ${({theme}) => theme.colors.blue};
   width: 100%;
-  min-height: 50vh;
+  min-height: 580px;
   overflow: hidden;
 `;
 
@@ -60,22 +60,6 @@ const Row = styled.div`
   justify-content: space-between;
   & + & { margin-top: ${({theme}) => theme.spacing[5]}px;}
 `;
-const Button = styled.button`
-  outline: none;
-  background: ${({theme})=> theme.colors.red};
-  padding: ${({theme})=> `${theme.spacing[2]}px ${theme.spacing[3]}px`};
-  height: 100%;
-  border: ${({theme}) => `2px solid ${theme.colors.white}`};
-  color: ${({theme}) => theme.colors.white};
-  font-weight: bold;
-  letter-spacing: .5px;
-  border-radius: 4px;
-  transition: background .2s ease-in-out;
-  &:hover {
-    cursor: pointer;
-    background: ${({theme}) => rgba(theme.colors.red, .9)};
-  }
-`;
 
 const SmallTitle = styled.h4`
   color: ${({theme}) => theme.colors.white};
@@ -89,7 +73,7 @@ const SmallTitle = styled.h4`
 const TagLine = styled.h3`
   color: ${({theme}) => theme.colors.white};
   font-family: ${({theme}) => theme.fonts.sans};
-  font-weight: 700;
+  font-weight: 800;
   font-size: 96px;
   max-width: 70%;
   position: relative;

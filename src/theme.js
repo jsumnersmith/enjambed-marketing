@@ -13,5 +13,5 @@ export default {
     serif: '"Libre Baskerville", Georgia, serif;',
     sans: '"Libre Franklin", Helvetica, sans-serif;'
   },
-  spacing: [3, 5, 10, 20, 30, 50]
+  spacing: [3, 5, 10, 20, 30, 50, 100]
 }

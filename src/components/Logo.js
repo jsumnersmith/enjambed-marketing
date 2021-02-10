@@ -1,9 +1,9 @@
 import React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
+import logo from "../images/logo.svg";
 
 const Logo = () => (
-  <StaticImage 
-    src="../images/logo.svg" 
+  <img 
+    src={logo}
     alt="Circled Slash Mark with Enjambed Wordmark" 
   />
 );
