@@ -31,17 +31,11 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-styled-components",
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Libre Franklin`,
-            variants: [`400`, `800`],
-          },
-          {
-            family: `Libre Baskerville`,
-            variants: [`400`, `800`, `400Italic`, `800Italic`]
-          },
+          `libre franklin\:400,800`,
+          `libre baskerville\:400,400i,800,800i`,
         ],
       },
     }
