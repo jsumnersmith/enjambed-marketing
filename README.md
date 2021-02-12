@@ -1,6 +1,6 @@
 # Enajmbed Marketing Site
 
-![Screenshot of Enjambed Marketing Site](https://github.com/jsumnersmith/enjambed-marketing/blob/main/screenshot.ong?raw=true)
+![Screenshot of Enjambed Marketing Site](https://github.com/jsumnersmith/enjambed-marketing/blob/main/screenshot.png?raw=true)
 A fictional site with a whimsical API for breaking lines of text into poetry.
 
 ### Developing
