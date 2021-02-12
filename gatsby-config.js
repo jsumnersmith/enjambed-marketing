@@ -39,6 +39,6 @@ module.exports = {
         ],
       },
     },
-    "gatsby-pluing-gatsby-cloud"
+    "gatsby-plugin-gatsby-cloud"
   ],
 };
