@@ -38,6 +38,7 @@ module.exports = {
           `libre baskerville\:400,400i,800,800i`,
         ],
       },
-    }
+    },
+    "gatsby-pluing-gatsby-cloud"
   ],
 };
