@@ -4,6 +4,7 @@ module.exports = {
     description: "A fictional site about a poetry data API company."
   },
   plugins: [
+    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
@@ -38,7 +39,6 @@ module.exports = {
           `libre baskerville\:400,400i,800,800i`,
         ],
       },
-    },
-    "gatsby-plugin-gatsby-cloud"
+    }
   ],
 };
