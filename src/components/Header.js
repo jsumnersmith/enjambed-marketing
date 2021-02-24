@@ -13,7 +13,7 @@ const Header = () => (
       <Row>
         <div>
           <SmallTitle>
-            Introducing Enjumbed 1.0
+            Introducing Enjambed 1.0
           </SmallTitle>
           <TagLine>An API for building line breaks into text.</TagLine>
         </div>
